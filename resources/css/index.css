@@ -1,0 +1,68 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.brand-custom{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    /* identical to box height, or 104% */
+    letter-spacing: 2px;
+    /* Text/text-gray-dark */
+    color: #292B2E;
+}
+
+.card-img-top:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 45%;
+    bottom: 45%;
+}
+
+.carousel-control-prev-icon  {
+    background-image: url(https://img.icons8.com/nolan/64/chevron-left.png);
+    cursor: pointer;
+}
+
+.carousel-control-next-icon {
+    background-image: url(https://img.icons8.com/nolan/64/chevron-right.png);
+    cursor: pointer;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon :hover {
+    -webkit-filter: brightness(100%);
+}
+
+.custom-h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #252B42;
+}
+
+.custom-gradiant-icon{
+    width: 20px;
+    height: 9px;
+    left: 1px;
+    top: 10px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
